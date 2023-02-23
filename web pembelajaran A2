@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>web pembelajaran</title>
+</head>
+
+<body>
+    <!-- Pertemuan 1-->
+    <h1 style="color: teal; font-family: monospace; text-align: center; font-size: xx-large;">WEB PEMBELAJARAN TP</h1>
+    <h2>Kelas A2 Hari Selasa Jam 09.20</h2>
+    <h3>Hari ini aku sakit perut</h3>
+    <h4>aku cantik sekali</h4>
+    <h5>luar biasa</h5>
+    
+    <p style="border: 2px; border-color: seashell; border-radius: 1px; border-style: dashed;">Mata kuliah web pembelajaran membahas tentang bagaimana cara membuat web dari dasar</p>
+    <center><img src="sut.jpg" style="height: 70%;width: 30%;"">
+    </center>
+
+    <!-- Pertemuan2-->
+    <h1>Up Video</h1>
+    <center><video width="300" controls src="ksm.mp4"></video></center>
+    <br>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/gXecy5Guwzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+</body>
+
+
+
+
+
+</html>
