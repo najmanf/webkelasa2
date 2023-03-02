@@ -11,8 +11,9 @@
     <h4>aku cantik sekali</h4>
     <h5>luar biasa</h5>
     
-    <p style="border: 2px; border-color: seashell; border-radius: 1px; border-style: dashed;">Mata kuliah web pembelajaran membahas tentang bagaimana cara membuat web dari dasar</p>
-    <center><img src="sut.jpg" style="height: 70%;width: 30%;"">
+    <h1><p>Up Foto</p></h1>
+    <p style="border: 2px; border-color: orange border-radius: 1px; border-style: dashed;">Mata kuliah web pembelajaran membahas tentang bagaimana cara membuat web dari dasar</p>
+    <center><img src="sut.jpg" style="height: 70%;width: 25%;"">
     </center>
 
     <!-- Pertemuan2-->
@@ -20,9 +21,58 @@
     <center><video width="300" controls src="ksm.mp4"></video></center>
     <br>
     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/gXecy5Guwzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
-    
+
     <h1>Up Audio</h1>
     <center><audio controls src="Ciri-Ciri Makhluk Hidup.mp3"></audio></center>
+
+    <!-- Pertemuan 3-->
+    <h1><p>Up Link</p></h1>
+    <center><a href="https://www.hotstar.com/">disney</a></center>
+    <br>
+    <center><a href="nyobain.html" target="_blank">ke nyobain lagi</a></center>
+
+    <h1><p>Up List</p></h1>
+    <br>
+    <ol>
+        <!--ordered list-->
+        <li>nomor 1</li>
+        <li>nomor 2</li>
+        <li>nomor 3</li>
+    </ol>
+
+    <br>
+    <ul>
+        <!--unordered list-->
+        <li>home</li>
+        <li>contact</li>
+        <li>info</li>
+    </ul>
+
+    <h1><p>Up Tabel</p></h1>
+    <center><table style="border: solid 3px;">
+        <tr>
+            <th>Nomor</th>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Kelas</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>01.</td>
+            <td>Najma Nur Fadhila</td>
+            <td>20105241036</td>
+            <td>Teknologi Pendidikan B</td>
+        </tr>
+
+        <tr>
+            <td>02.</td>
+            <td>Nadhira Atsila</td>
+            <td>20105244025</td>
+            <td>Teknologi Pendidikan B</td>
+        </tr>
+        </tbody>
+    </table>
+    </center>
 
 </body>
 
