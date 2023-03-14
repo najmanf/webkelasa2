@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--css eksternal-->
+        <link rel="stylesheet" href="styling.css">
+
+        <!--css internal-->
+        <!--cara stylingnya langsung panggil nama tag-->
+        <style>
+            *{box-sizing: border-box;
+                padding: 10px; margin: 0px;
+                height: 100%;
+                font-family: monospace;}
+
+            body{background-color: mintcream;
+                display: flex;
+                flex-direction: column;}
+
+            header{display: flex;
+                flex:2;
+                font-size: 30pt;
+                font-style: normal;
+                font-weight: bold;
+                background-color: seagreen ;
+                text-align: center;}
+
+            section{display: flex;
+                column-gap: 20px;
+                width: 100%;
+                flex:10;
+                background-color: gainsboro;
+                font-size: 25pt;}
+
+            aside{flex:3;
+                background-color: darkseagreen;
+                font-size: 30pt;
+                display: flex;
+                width: 20%;}
+
+            main{display: flex;
+                flex:10;
+                background-color: palegreen;}
+
+            footer{display: flex;
+                flex:1;
+                background-color: seagreen;
+                font-size: 20pt;}
+                
+            article{background-color: darkslategray;}
+
+            ul{display: flex;
+                list-style: none;
+                margin-right: 5px;}
+
+            li{margin-right: 20px;}
+        </style>
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="link 1.html">home</a></li>
+                    <li><a href="link 2.html">about</a></li>
+                    <li><a href="link 3.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <aside>sidebar</aside>
+                <article>bagian 1</article>
+                <article>bagian 2</article>
+                <article>bagian 3</article>
+            </section>
+        </main>
+        <footer>FOOTER</footer>
+    </body>
+</html>
+
+
+
+
+
+
