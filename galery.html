@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery TPA Darussalam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/529cfaf802.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section class="header4">
+            <nav>
+                <a href="galery.html"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="bismillah.html">HALAMAN UTAMA</a></li>
+                        <li><a href="about.html">TENTANG KAMI</a></li>
+                        <li><a href="academic.html">AKADEMIK</a></li>
+                        <li><a href="galery.html">GALERI</a></li>
+                        <li><a href="contact.html">KONTAK</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+    </header>
+<!---- judul ---->
+    <main>
+        <section class="text-box4">
+            <h1>GALERI</h1>
+        </section>
+<!---- foto ---->
+        <section class="foto">
+            <div class="row">
+                <div class="foto-col">
+                    <img src="arsip/foto bersama 2.jpg">
+                    <div class="layer">
+                    <h3>Foto Bersama</h3>
+                    </div>
+                </div>
+                <div class="foto-col">
+                    <img src="arsip/lomba memasak 1.jpg">
+                    <div class="layer">
+                    <h3>Praktik Memasak</h3>
+                    </div>
+                </div>
+                <div class="foto-col">
+                    <img src="arsip/lomba mewarnai 1.jpg">
+                    <div class="layer">
+                    <h3>Lomba Mewarnai</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="foto-col">
+                    <img src="arsip/manasik haji 3.jpg">
+                    <div class="layer">
+                    <h3>Manasik Haji</h3>
+                    </div>
+                </div>
+                <div class="foto-col">
+                    <img src="arsip/manasik haji 2.jpg">
+                    <div class="layer">
+                    <h3>Merayakan HUT NKRI</h3>
+                    </div>
+                </div>
+                <div class="foto-col">
+                    <img src="arsip/outbond 2.jpg">
+                    <div class="layer">
+                    <h3>Outbond</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="foto-col">
+                    <img src="arsip/outing class 2.jpg">
+                    <div class="layer">
+                    <h3>Outing Class</h3>
+                    </div>
+                </div>
+                <div class="foto-col">
+                    <img src="arsip/pembacaan dongeng 1.jpg">
+                    <div class="layer">
+                    <h3>Pembacaan Dongeng</h3>
+                    </div>
+                </div>
+                <div class="foto-col">
+                    <img src="arsip/perlombaan 1.jpg">
+                    <div class="layer">
+                    <h3>Perlombaan</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- footer -->
+        <section class="footer">
+                <h4>TPQ Darussalam</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="icons">
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-phone"></i>
+                <i class="fa fa-envelope-o"></i>
+            </div>
+        </section>
+    </main>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+
+</script>
+</body>
+</html>
