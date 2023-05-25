@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About TPA Darussalam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/529cfaf802.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <section class="header2">
+            <nav>
+                <a href="about.html"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="bismillah.html">HALAMAN UTAMA</a></li>
+                        <li><a href="about.html">TENTANG KAMI</a></li>
+                        <li><a href="academic.html">AKADEMIK</a></li>
+                        <li><a href="galery.html">GALERI</a></li>
+                        <li><a href="contact.html">KONTAK</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+    </header>
+
+    <!---- mengenal ---->
+    <main>
+        <section class="text-box2">
+            <h1>TENTANG KAMI</h1>
+        </section>
+        <section class="pengajar">
+            <div class="pengajar-col">
+                <img src="arsip/guru.jpg">
+                <div class="layer">
+                    <h3>Pengajar TPA Darussalam</h3>
+                </div>
+            </div>
+            <div class="pengajar-col">
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</P>
+            </div>
+        </section>
+        <section class="mengenal">
+            <h1>Mengenal Lebih Jauh</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    
+            <div class="row">
+                <div class="mengenal-col">
+                    <h3>visi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="mengenal-col">
+                    <h3>misi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="mengenal-col">
+                    <h3>tujuan</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+            </div>
+        </section>
+<!-- footer -->
+        <section class="footer">
+            <h4>TPQ Darussalam</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <div class="icons">
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-phone"></i>
+                <i class="fa fa-envelope-o"></i>
+            </div>
+        </section>
+    </main>
+    
+<!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+
+</script>
+</body>
+</html>
